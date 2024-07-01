@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de72d52777dd43fcb3c94fdacc6fa5aa, type: 3}
+  m_Name: SweetsForestMultiplier
+  m_EditorClassIdentifier: 
+  currencyType: 1
+  maxLevel: 5
+  description: Increases sweets in sweets forest multiplier 1
+  uid: _sweets_multiplier_01
+  increasePerUpgrade:
+    integerString: 1
+  costOnEachLevel:
+  - integerString: 1
+  - integerString: 2
+  - integerString: 3
+  - integerString: 4
+  - integerString: 5
+  girlType: 0
+  jobType: 0
+  changeToMultiplier: 1
